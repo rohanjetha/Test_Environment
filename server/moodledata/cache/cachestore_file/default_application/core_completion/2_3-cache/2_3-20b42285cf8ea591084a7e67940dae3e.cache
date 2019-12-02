@@ -1,1 +1,1 @@
-a:2:{i:4;O:8:"stdClass":7:{s:2:"id";i:1;s:14:"coursemoduleid";s:1:"4";s:6:"userid";s:1:"2";s:15:"completionstate";i:0;s:6:"viewed";i:1;s:10:"overrideby";N;s:12:"timemodified";i:0;}s:8:"cacherev";s:10:"1563436975";}
+a:2:{i:4;a:7:{s:2:"id";s:1:"1";s:14:"coursemoduleid";s:1:"4";s:6:"userid";s:1:"2";s:15:"completionstate";s:1:"0";s:6:"viewed";s:1:"1";s:10:"overrideby";N;s:12:"timemodified";s:1:"0";}s:8:"cacherev";s:10:"1574513998";}

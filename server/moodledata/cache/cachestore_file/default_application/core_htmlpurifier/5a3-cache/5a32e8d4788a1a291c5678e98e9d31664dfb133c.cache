@@ -1,0 +1,7 @@
+s:279:"<div style="float:left;width:40%;">
+    <i>Audio Cue for #10:</i>
+
+    <div style="float:right;width:50%;">
+        <audio title="Audio Cue #1" style="margin:0;" controls=""><source src="@@PLUGINFILE@@/TestAudio.mp3" />@@PLUGINFILE@@/TestAudio.mp3</audio>
+    </div>
+</div>";

@@ -1,0 +1,2 @@
+s:200:"<p><u>Audio Cue for #1:</u></p>
+<p> </p><audio style="margin:0 0 0 -300px;" controls="" title="Audio Cue #1"><source src="@@PLUGINFILE@@/TestAudio.mp3" />@@PLUGINFILE@@/TestAudio.mp3</audio> <br />";

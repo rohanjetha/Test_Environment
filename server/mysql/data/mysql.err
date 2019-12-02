@@ -421,3 +421,1571 @@ InnoDB: for how to resolve the issue.
 2019-07-24 17:35:23 17636 [Note] InnoDB: Dumping buffer pool(s) not yet started
 2019-07-24 17:35:23 224 [Note] Plugin 'FEEDBACK' is disabled.
 2019-07-24 17:35:23 224 [Note] Server socket created on IP: '::'.
+2019-07-24 17:35:23 224 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-07-25 13:17:14 19500 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-07-25 13:17:14 19500 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-07-25 13:17:14 19500 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-25 13:17:14 19500 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-07-25 13:17:14 19500 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-25 13:17:14 19500 [Note] InnoDB: Using generic crc32 instructions
+2019-07-25 13:17:14 19500 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-07-25 13:17:14 19500 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-25 13:17:14 19500 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2019-07-25 13:17:14 19500 [ERROR] InnoDB: The system tablespace must be writable!
+2019-07-25 13:17:14 19500 [ERROR] Plugin 'InnoDB' init function returned error.
+2019-07-25 13:17:14 19500 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2019-07-25 13:17:14 19500 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-25 13:17:14 19500 [ERROR] Unknown/unsupported storage engine: innodb
+2019-07-25 13:17:14 19500 [ERROR] Aborting
+
+2019-07-31 20:31:08 1700 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-07-31 20:31:08 1700 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-07-31 20:31:08 1700 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-31 20:31:08 1700 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-07-31 20:31:08 1700 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-31 20:31:08 1700 [Note] InnoDB: Using generic crc32 instructions
+2019-07-31 20:31:08 1700 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-07-31 20:31:09 1700 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-31 20:31:09 1700 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-31 20:31:09 1700 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 17156688 in the ib_logfiles!
+2019-07-31 20:31:11 1700 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-07-31 20:31:11 1700 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-07-31 20:31:11 1700 [Note] InnoDB: Waiting for purge to start
+2019-07-31 20:31:11 1700 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 17156688
+2019-07-31 20:31:11 15860 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-07-31 20:31:11 1700 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-31 20:31:11 1700 [Note] Server socket created on IP: '::'.
+2019-07-31 20:31:11 1700 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-01 23:00:14 19224 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-01 23:00:14 19224 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-01 23:00:14 19224 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-01 23:00:14 19224 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-01 23:00:14 19224 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-01 23:00:14 19224 [Note] InnoDB: Using generic crc32 instructions
+2019-08-01 23:00:14 19224 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-01 23:00:14 19224 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-01 23:00:14 19224 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-01 23:00:14 19224 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 17168511 in the ib_logfiles!
+2019-08-01 23:00:16 19224 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-01 23:00:16 19224 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:16 19224 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:16 19224 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:16 19224 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:16 19224 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-01 23:00:17 19224 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-01 23:00:17 19224 [Note] InnoDB: Waiting for purge to start
+2019-08-01 23:00:17 19224 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 17168511
+2019-08-01 23:00:17 5444 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-01 23:00:17 19224 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-01 23:00:17 19224 [Note] Server socket created on IP: '::'.
+2019-08-01 23:00:17 19224 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-04 20:04:52 15624 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-04 20:04:52 15624 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-04 20:04:52 15624 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-04 20:04:52 15624 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-04 20:04:52 15624 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-04 20:04:52 15624 [Note] InnoDB: Using generic crc32 instructions
+2019-08-04 20:04:52 15624 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-04 20:04:52 15624 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-04 20:04:52 15624 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-04 20:04:52 15624 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 17169751 in the ib_logfiles!
+2019-08-04 20:04:54 15624 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-04 20:04:54 15624 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:54 15624 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:54 15624 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-04 20:04:55 15624 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-04 20:04:55 15624 [Note] InnoDB: Waiting for purge to start
+2019-08-04 20:04:55 15624 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 17169751
+2019-08-04 20:04:55 11724 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-04 20:04:55 15624 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-04 20:04:55 15624 [Note] Server socket created on IP: '::'.
+2019-08-04 20:04:55 15624 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-06 21:30:35 3436 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-06 21:30:35 3436 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-06 21:30:35 3436 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-06 21:30:35 3436 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-06 21:30:35 3436 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-06 21:30:35 3436 [Note] InnoDB: Using generic crc32 instructions
+2019-08-06 21:30:35 3436 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-06 21:30:35 3436 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-06 21:30:35 3436 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2019-08-06 21:30:35 3436 [ERROR] InnoDB: The system tablespace must be writable!
+2019-08-06 21:30:35 3436 [ERROR] Plugin 'InnoDB' init function returned error.
+2019-08-06 21:30:35 3436 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2019-08-06 21:30:35 3436 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-06 21:30:35 3436 [ERROR] Unknown/unsupported storage engine: innodb
+2019-08-06 21:30:35 3436 [ERROR] Aborting
+
+2019-08-07 20:36:07 17132 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-07 20:36:07 17132 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-07 20:36:07 17132 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-07 20:36:07 17132 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-07 20:36:07 17132 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-07 20:36:07 17132 [Note] InnoDB: Using generic crc32 instructions
+2019-08-07 20:36:07 17132 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-07 20:36:07 17132 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-07 20:36:08 17132 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-07 20:36:08 17132 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 19432982 in the ib_logfiles!
+2019-08-07 20:36:09 17132 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-07 20:36:10 17132 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-07 20:36:10 17132 [Note] InnoDB: Waiting for purge to start
+2019-08-07 20:36:10 17132 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 19432982
+2019-08-07 20:36:10 5548 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-07 20:36:10 17132 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-07 20:36:10 17132 [Note] Server socket created on IP: '::'.
+2019-08-07 20:36:10 17132 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-08 15:04:03 15072 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-08 15:04:03 15072 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-08 15:04:03 15072 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-08 15:04:03 15072 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-08 15:04:03 15072 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-08 15:04:03 15072 [Note] InnoDB: Using generic crc32 instructions
+2019-08-08 15:04:03 15072 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-08 15:04:03 15072 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-08 15:04:03 15072 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-08 15:04:03 15072 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 19454949 in the ib_logfiles!
+2019-08-08 15:04:05 15072 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 15:04:06 15072 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-08 15:04:06 15072 [Note] InnoDB: Waiting for purge to start
+2019-08-08 15:04:06 15072 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 19454949
+2019-08-08 15:04:06 20352 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-08 15:04:06 15072 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-08 15:04:06 15072 [Note] Server socket created on IP: '::'.
+2019-08-08 15:04:06 15072 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-08 16:23:47 1432 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-08 16:23:47 1432 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-08 16:23:47 1432 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-08 16:23:47 1432 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-08 16:23:47 1432 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-08 16:23:47 1432 [Note] InnoDB: Using generic crc32 instructions
+2019-08-08 16:23:47 1432 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-08 16:23:47 1432 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-08 16:23:47 1432 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-08 16:23:47 1432 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 19513440 in the ib_logfiles!
+2019-08-08 16:23:49 1432 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-08 16:23:50 1432 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-08 16:23:50 1432 [Note] InnoDB: Waiting for purge to start
+2019-08-08 16:23:50 1432 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 19513440
+2019-08-08 16:23:50 7096 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-08 16:23:50 1432 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-08 16:23:50 1432 [Note] Server socket created on IP: '::'.
+2019-08-08 16:23:50 1432 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-08 22:34:19 7636 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-08 22:34:19 7636 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-08 22:34:19 7636 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-08 22:34:19 7636 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-08 22:34:19 7636 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-08 22:34:19 7636 [Note] InnoDB: Using generic crc32 instructions
+2019-08-08 22:34:19 7636 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-08 22:34:19 7636 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-08 22:34:19 7636 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2019-08-08 22:34:19 7636 [ERROR] InnoDB: The system tablespace must be writable!
+2019-08-08 22:34:19 7636 [ERROR] Plugin 'InnoDB' init function returned error.
+2019-08-08 22:34:19 7636 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2019-08-08 22:34:19 7636 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-08 22:34:19 7636 [ERROR] Unknown/unsupported storage engine: innodb
+2019-08-08 22:34:19 7636 [ERROR] Aborting
+
+2019-08-11 20:19:32 11520 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-11 20:19:32 11520 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-11 20:19:32 11520 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-11 20:19:32 11520 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-11 20:19:32 11520 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-11 20:19:32 11520 [Note] InnoDB: Using generic crc32 instructions
+2019-08-11 20:19:32 11520 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-11 20:19:32 11520 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-11 20:19:32 11520 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-11 20:19:32 11520 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 21883232 in the ib_logfiles!
+2019-08-11 20:19:34 11520 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-11 20:19:35 11520 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-11 20:19:35 11520 [Note] InnoDB: Waiting for purge to start
+2019-08-11 20:19:35 11520 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 21883232
+2019-08-11 20:19:35 14664 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-11 20:19:35 11520 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-11 20:19:35 11520 [Note] Server socket created on IP: '::'.
+2019-08-11 20:19:35 11520 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-22 18:36:17 14044 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-22 18:36:17 14044 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-22 18:36:17 14044 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-22 18:36:17 14044 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-22 18:36:17 14044 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-22 18:36:17 14044 [Note] InnoDB: Using generic crc32 instructions
+2019-08-22 18:36:17 14044 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-22 18:36:17 14044 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-22 18:36:17 14044 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-22 18:36:17 14044 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 27764099 in the ib_logfiles!
+2019-08-22 18:36:19 14044 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-22 18:36:20 14044 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-22 18:36:20 14044 [Note] InnoDB: Waiting for purge to start
+2019-08-22 18:36:20 14044 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 27764099
+2019-08-22 18:36:20 4568 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-22 18:36:20 14044 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-22 18:36:20 14044 [Note] Server socket created on IP: '::'.
+2019-08-22 18:36:20 14044 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-27 20:04:38 736 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-08-27 20:04:38 736 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-08-27 20:04:38 736 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-27 20:04:38 736 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-08-27 20:04:38 736 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-08-27 20:04:38 736 [Note] InnoDB: Using generic crc32 instructions
+2019-08-27 20:04:38 736 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-08-27 20:04:38 736 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-27 20:04:38 736 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-27 20:04:38 736 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 30471360 in the ib_logfiles!
+2019-08-27 20:04:40 736 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-08-27 20:04:40 736 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-08-27 20:04:40 736 [Note] InnoDB: Waiting for purge to start
+2019-08-27 20:04:40 736 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 30471360
+2019-08-27 20:04:40 19680 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-08-27 20:04:40 736 [Note] Plugin 'FEEDBACK' is disabled.
+2019-08-27 20:04:40 736 [Note] Server socket created on IP: '::'.
+2019-08-27 20:04:41 736 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-04 17:31:48 13128 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-09-04 17:31:48 13128 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-09-04 17:31:48 13128 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-04 17:31:48 13128 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-09-04 17:31:48 13128 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-09-04 17:31:48 13128 [Note] InnoDB: Using generic crc32 instructions
+2019-09-04 17:31:48 13128 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-09-04 17:31:48 13128 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-04 17:31:48 13128 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-09-04 17:31:48 13128 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 46126437 in the ib_logfiles!
+2019-09-04 17:31:51 13128 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-04 17:31:51 13128 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-09-04 17:31:51 13128 [Note] InnoDB: Waiting for purge to start
+2019-09-04 17:31:51 13128 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 46126437
+2019-09-04 17:31:51 14972 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-09-04 17:31:51 13128 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-04 17:31:51 13128 [Note] Server socket created on IP: '::'.
+2019-09-04 17:31:52 13128 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-12 20:21:48 17400 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-09-12 20:21:48 17400 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-09-12 20:21:48 17400 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-12 20:21:48 17400 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-09-12 20:21:48 17400 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-09-12 20:21:48 17400 [Note] InnoDB: Using generic crc32 instructions
+2019-09-12 20:21:48 17400 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-09-12 20:21:48 17400 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-12 20:21:48 17400 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-09-12 20:21:48 17400 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 46718623 in the ib_logfiles!
+2019-09-12 20:21:51 17400 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-09-12 20:21:53 17400 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-09-12 20:21:53 17400 [Note] InnoDB: Waiting for purge to start
+2019-09-12 20:21:54 17400 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 46718623
+2019-09-12 20:21:54 2572 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-09-12 20:21:54 17400 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-12 20:21:54 17400 [Note] Server socket created on IP: '::'.
+2019-09-12 20:21:54 17400 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-06 17:54:15 7248 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-10-06 17:54:15 7248 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-10-06 17:54:15 7248 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-06 17:54:15 7248 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-10-06 17:54:15 7248 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-10-06 17:54:15 7248 [Note] InnoDB: Using generic crc32 instructions
+2019-10-06 17:54:15 7248 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-10-06 17:54:15 7248 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-06 17:54:15 7248 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-10-06 17:54:15 7248 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 47268172 in the ib_logfiles!
+2019-10-06 17:54:18 7248 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-06 17:54:18 7248 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-10-06 17:54:18 7248 [Note] InnoDB: Waiting for purge to start
+2019-10-06 17:54:18 7248 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 47268172
+2019-10-06 17:54:18 11104 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-10-06 17:54:18 7248 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-06 17:54:18 7248 [Note] Server socket created on IP: '::'.
+2019-10-06 17:54:18 7248 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-16 17:38:57 22472 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-10-16 17:38:57 22472 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-10-16 17:38:57 22472 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-16 17:38:57 22472 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-10-16 17:38:57 22472 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-10-16 17:38:57 22472 [Note] InnoDB: Using generic crc32 instructions
+2019-10-16 17:38:57 22472 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-10-16 17:38:57 22472 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-16 17:38:57 22472 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-10-16 17:38:57 22472 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 47300808 in the ib_logfiles!
+2019-10-16 17:38:59 22472 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-10-16 17:39:00 22472 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-10-16 17:39:00 22472 [Note] InnoDB: Waiting for purge to start
+2019-10-16 17:39:00 22472 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 47300808
+2019-10-16 17:39:00 22400 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-10-16 17:39:00 22472 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-16 17:39:00 22472 [Note] Server socket created on IP: '::'.
+2019-10-16 17:39:00 22472 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-11-23 23:19:41 1316 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-11-23 23:19:41 1316 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-11-23 23:19:42 1316 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-11-23 23:19:42 1316 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-11-23 23:19:42 1316 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-11-23 23:19:42 1316 [Note] InnoDB: Using generic crc32 instructions
+2019-11-23 23:19:42 1316 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-11-23 23:19:42 1316 [Note] InnoDB: Completed initialization of buffer pool
+2019-11-23 23:19:42 1316 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-11-23 23:19:42 1316 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 48489597 in the ib_logfiles!
+2019-11-23 23:19:45 1316 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-11-23 23:19:48 1316 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-11-23 23:19:48 1316 [Note] InnoDB: Waiting for purge to start
+2019-11-23 23:19:48 1316 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 48489597
+2019-11-23 23:19:48 10752 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-11-23 23:19:48 1316 [Note] Plugin 'FEEDBACK' is disabled.
+2019-11-23 23:19:48 1316 [Note] Server socket created on IP: '::'.
+2019-11-23 23:19:48 1316 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-12-02 22:58:55 19108 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-12-02 22:58:55 19108 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-12-02 22:58:55 19108 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-02 22:58:55 19108 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-12-02 22:58:55 19108 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-12-02 22:58:55 19108 [Note] InnoDB: Using generic crc32 instructions
+2019-12-02 22:58:55 19108 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-12-02 22:58:55 19108 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-02 22:58:55 19108 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-12-02 22:58:55 19108 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 67806623 in the ib_logfiles!
+2019-12-02 22:58:57 19108 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 22:58:58 19108 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-12-02 22:58:58 19108 [Note] InnoDB: Waiting for purge to start
+2019-12-02 22:58:58 19108 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 67806623
+2019-12-02 22:58:58 31372 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-12-02 22:58:58 19108 [Note] Plugin 'FEEDBACK' is disabled.
+2019-12-02 22:58:58 19108 [Note] Server socket created on IP: '::'.
+2019-12-02 22:58:58 19108 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-12-02 23:29:25 3660 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-12-02 23:29:25 3660 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-12-02 23:29:25 3660 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-02 23:29:25 3660 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-12-02 23:29:25 3660 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-12-02 23:29:25 3660 [Note] InnoDB: Using generic crc32 instructions
+2019-12-02 23:29:25 3660 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+2019-12-02 23:29:25 3660 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-02 23:29:25 3660 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-12-02 23:29:25 3660 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 67823523 in the ib_logfiles!
+2019-12-02 23:29:26 3660 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__bookmark in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__central_columns in the InnoDB data dictionary has tablespace id 27, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__column_info in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__designer_settings in the InnoDB data dictionary has tablespace id 28, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__export_templates in the InnoDB data dictionary has tablespace id 29, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__favorite in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__history in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__navigationhiding in the InnoDB data dictionary has tablespace id 25, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__pdf_pages in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__recent in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__relation in the InnoDB data dictionary has tablespace id 18, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__savedsearches in the InnoDB data dictionary has tablespace id 26, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__table_coords in the InnoDB data dictionary has tablespace id 19, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__table_info in the InnoDB data dictionary has tablespace id 20, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__table_uiprefs in the InnoDB data dictionary has tablespace id 17, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__tracking in the InnoDB data dictionary has tablespace id 21, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__userconfig in the InnoDB data dictionary has tablespace id 22, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__usergroups in the InnoDB data dictionary has tablespace id 24, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [ERROR] InnoDB: Table phpmyadmin/pma__users in the InnoDB data dictionary has tablespace id 23, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2019-12-02 23:29:27 3660 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-12-02 23:29:27 3660 [Note] InnoDB: Waiting for purge to start
+2019-12-02 23:29:27 3660 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 67823523
+2019-12-02 23:29:27 3220 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-12-02 23:29:27 3660 [Note] Plugin 'FEEDBACK' is disabled.
+2019-12-02 23:29:27 3660 [Note] Server socket created on IP: '::'.
