@@ -539,6 +539,7 @@ $cache = array (
     array (
       'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost',
       'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic',
+      'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru',
     ),
     'assignsubmission' => 
     array (
@@ -4116,6 +4117,7 @@ $cache = array (
       array (
         'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost/lib.php',
         'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/lib.php',
+        'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru/lib.php',
       ),
       'assignsubmission' => 
       array (
@@ -4449,6 +4451,7 @@ $cache = array (
       array (
         'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost/settings.php',
         'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/settings.php',
+        'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru/settings.php',
       ),
       'assignsubmission' => 
       array (

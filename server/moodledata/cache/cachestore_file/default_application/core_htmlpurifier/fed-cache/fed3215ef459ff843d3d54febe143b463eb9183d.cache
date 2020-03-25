@@ -1,5 +1,0 @@
-s:234:"<p align="left"> <b>Audio Cue for #1:</b>
-</p>
-<div style="margin:0 0 0 -39%;">
-    <audio title="Audio Cue #1" style="margin:0;" controls=""><source src="@@PLUGINFILE@@/TestAudio.mp3" />@@PLUGINFILE@@/TestAudio.mp3</audio>
-</div>";

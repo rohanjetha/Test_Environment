@@ -1,5 +1,5 @@
 <?php  // Moodle configuration file
-
+ini_set ('display_errors', 'on'); ini_set ('log_errors', 'on'); ini_set ('display_startup_errors', 'on'); ini_set ('error_reporting', E_ALL);
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
@@ -23,7 +23,7 @@ $CFG->dataroot  = 'C:\\xampp\\htdocs\\Moodle\\server\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
-
+ini_set ('display_errors', 'on'); ini_set ('log_errors', 'on'); ini_set ('display_startup_errors', 'on'); ini_set ('error_reporting', E_ALL);
 require_once(__DIR__ . '/lib/setup.php');
 
 // There is no php closing tag in this file,
