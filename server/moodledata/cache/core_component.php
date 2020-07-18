@@ -540,6 +540,7 @@ $cache = array (
       'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost',
       'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic',
       'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru',
+      'fordson' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson',
     ),
     'assignsubmission' => 
     array (
@@ -694,6 +695,7 @@ $cache = array (
     ),
     'local' => 
     array (
+      'staticpage' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/local/staticpage',
     ),
   ),
   'parents' => 
@@ -2569,6 +2571,8 @@ $cache = array (
     'gradereport_user\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/grade/report/user/classes/privacy/provider.php',
     'gradingform_guide\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/grade/grading/form/guide/classes/privacy/provider.php',
     'gradingform_rubric\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/grade/grading/form/rubric/classes/privacy/provider.php',
+    'local_staticpage\\admin_setting_staticpagestoredfile' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/local/staticpage/classes/admin_setting_staticpagestoredfile.php',
+    'local_staticpage_admin_setting_staticpagestoredfile' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/local/staticpage/classes/admin_setting_staticpagestoredfile.php',
     'logstore_database\\helper' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/admin/tool/log/store/database/classes/helper.php',
     'logstore_database\\log\\store' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/admin/tool/log/store/database/classes/log/store.php',
     'logstore_database\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/admin/tool/log/store/database/classes/privacy/provider.php',
@@ -3411,6 +3415,20 @@ $cache = array (
     'theme_boost_autoprefixer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost/classes/autoprefixer.php',
     'theme_classic\\output\\core_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/classes/output/core_renderer.php',
     'theme_classic\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/classes/privacy/provider.php',
+    'theme_fordson\\format_collapsibletopics_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_collapsibletopics_renderer.php',
+    'theme_fordson\\format_topics_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_topics_renderer.php',
+    'theme_fordson\\format_weeks_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_weeks_renderer.php',
+    'theme_fordson\\output\\core\\course_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/output/core/course_renderer.php',
+    'theme_fordson\\output\\core_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/output/core_renderer.php',
+    'theme_fordson\\output\\core_renderer_ajax' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/output/core_renderer_ajax.php',
+    'theme_fordson\\output\\modchooser' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/output/modchooser.php',
+    'theme_fordson\\output\\modchooser_item' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/output/modchooser_item.php',
+    'theme_fordson\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/privacy/provider.php',
+    'theme_fordson\\qtype_shortanswer_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/qtype_shortanswer_renderer.php',
+    'theme_fordson_format_collapsibletopics_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_collapsibletopics_renderer.php',
+    'theme_fordson_format_topics_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_topics_renderer.php',
+    'theme_fordson_format_weeks_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/format_weeks_renderer.php',
+    'theme_fordson_qtype_shortanswer_renderer' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/classes/qtype_shortanswer_renderer.php',
     'tinymce_ctrlhelp\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/ctrlhelp/classes/privacy/provider.php',
     'tinymce_managefiles\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/managefiles/classes/privacy/provider.php',
     'tinymce_moodleemoticon\\privacy\\provider' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/moodleemoticon/classes/privacy/provider.php',
@@ -4118,6 +4136,7 @@ $cache = array (
         'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost/lib.php',
         'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/lib.php',
         'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru/lib.php',
+        'fordson' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/lib.php',
       ),
       'assignsubmission' => 
       array (
@@ -4216,6 +4235,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'staticpage' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/local/staticpage/lib.php',
       ),
     ),
     'settings.php' => 
@@ -4452,6 +4472,7 @@ $cache = array (
         'boost' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/boost/settings.php',
         'classic' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/classic/settings.php',
         'eguru' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/eguru/settings.php',
+        'fordson' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/theme/fordson/settings.php',
       ),
       'assignsubmission' => 
       array (
@@ -4524,6 +4545,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'staticpage' => 'C:\\xampp\\htdocs\\Moodle\\server\\moodle/local/staticpage/settings.php',
       ),
     ),
   ),

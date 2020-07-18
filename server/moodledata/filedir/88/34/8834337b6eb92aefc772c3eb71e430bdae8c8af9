@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<?php require_once(dirname(__FILE__) . '/includes/marketingspots.php'); ?>
+<html>
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <style type="text/css">
+			
+		
+		
+            .main-container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .hub-wrapper {
+                border-style: outset;
+                background-color: #F5F5F5;
+                border-radius: 25px;
+                position: relative;
+                max-width: 100%;
+                margin: 0 auto;
+                min-height: 75vh;
+                text-align: center;
+                overflow: hidden;
+            }
+
+            .hub-wrapper a.hub-link {
+                display: inline-block;
+            }
+
+            .hub1,
+            .hub2,
+            .hub3,
+            .hub4 {
+                width: 33%;
+                position: absolute;
+                z-index: 3;
+                border-radius: 25px;
+				
+            }
+
+            .hub1 {
+				text-align: center;
+                display: inline-block;
+                z-index: 3;
+                left: 10px;
+                top: 10px;
+            }
+
+            .hub4 {
+                left: auto;
+                right: 10px;
+                top: 10px;
+            }
+
+            .hub-wrapper::after {
+                content: ' ';
+                position: absolute;
+                width: 5px;
+                height: 100% !important;
+                background: #ded0b8;
+                left: 50%;
+                right: auto;
+                top: auto;
+                bottom: auto;
+                z-index: 0;
+                transform: rotate3d(2, -5, -1, 187deg);
+				visibility: visible !important;
+            }
+
+            .hub-wrapper::before {
+                content: ' ';
+                position: absolute;
+                width: 5px;
+                height: 100%;
+                background: #ded0b8;
+                z-index: 0;
+                right: auto;
+                left: auto;
+                transform: rotate3d(2, 5, 1, -150deg);
+            }
+
+            .hub2 {
+                left: 10px;
+                bottom: 10px;
+                z-index: 2;
+            }
+
+            .hub3 {
+                bottom: 10px;
+                right: 10px;
+                z-index: 2;
+            }
+
+            .hub1 .hub-link,
+            .hub2 .hub-link,
+            .hub3 .hub-link,
+            .hub4 .hub-link {
+                position: relative;
+                width: 100%;
+            }
+
+            .tooltiptext {
+                visibility: hidden;
+                width: 200px;
+                background-color: #fff;
+                color: #ccc;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                position: absolute;
+                z-index: 10;
+            }
+
+            .hub1 a.hub-link:hover+.tooltiptext,
+            .hub2 a.hub-link:hover+.tooltiptext,
+            .hub3 a.hub-link:hover+.tooltiptext,
+            .hub4 a.hub-link:hover+.tooltiptext {
+                visibility: visible;
+            }
+
+            .tooltiptext::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
+
+            .tooltiptext a {
+                display: block;
+                width: 100%;
+                text-decoration: none;
+            }
+
+
+            .tooltiptextright {
+                top: 20%;
+                left: 0%;
+            }
+
+            .tooltiptextleft {
+                top: 20%;
+                bottom: auto;
+                right: 0%;
+            }
+
+            .center-hub {
+                z-index: 2;
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                z-index: 5;
+                transform: translate(-50%, -50%);
+            }
+
+            .center-hub a {
+                display: inline-block;
+            }
+
+            .center-hub img {
+                padding: 10px;
+                background-color: #ded0b8;
+            }
+
+            .hub-wrapper img {
+                padding: 2%;
+                border-radius: 15%;
+                max-width: 300px;
+                height: auto;
+            }
+
+            .clearfix:after {
+                visibility: hidden;
+                display: block;
+                font-size: 0;
+                content: " ";
+                clear: both;
+                height: 0;
+            }
+
+            .clearfix {
+                display: inline-block;
+            }
+
+            * html .clearfix {
+                height: 1%;
+            }
+
+            .clearfix {
+                display: block;
+            }
+
+            .back {
+                transform: rotateY(180deg);
+            }
+
+            .flip-card { 	
+                background-color: transparent;
+                width: 100%;
+                height: 300px;
+                perspective: 1000px;
+            }
+
+            .flip-card-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+                border-radius: 25px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+            }
+
+            .flip-card-front,
+            .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border-radius: 25px;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .flip-card-front {
+                background-color: #f5f6f1;
+                color: black;
+            }
+
+            .flip-card-back {
+                background-color: #f5f6f1;
+                transform: rotateY(180deg);
+            }
+
+            .flip-card-back h3 {
+                text-transform: uppercase;
+                border-bottom: 2px solid #ccc;
+                margin-bottom: 2px;
+                margin-top: 10px;
+                display: inline-block;
+            }
+
+            .flip-card-back ul {
+                padding: 0px;
+            }
+
+            .flip-card-back ul li {
+                list-style: none;
+                background: #add0b3;
+                margin-bottom: 5px;
+            }
+
+            .flip-card-back a {
+                width: 100%;
+                display: block;
+                font-size: 19px;
+                text-decoration: none;
+                color: #924842;
+            }
+
+            .flip-card-back ul li:hover {
+                list-style: none;
+                background: #758a71;
+                margin-bottom: 5px;
+            }
+
+            .flip-card-back a:hover {
+                color: #fff;
+            }
+
+            .flip-card-back h3 {
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
+
+            .flip-card-back div {
+                width: 80%;
+				height:100%;
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 991px) {
+
+                .hub1,
+                .hub2,
+                .hub3,
+                .hub4 {
+                    width: 100%;
+                    position: relative;
+					
+                }
+
+                .hub-wrapper::after,
+                .hub-wrapper::before {
+                    visibility: hidden;
+                }
+
+                .hub1 {
+                    left: 0;
+                    top: 0;
+                }
+
+                .hub2 {
+                    left: 0;
+                    bottom: 0;
+                    z-index: 3;
+                }
+
+                .hub3 {
+                    bottom: 0;
+                    right: 0;
+                }
+
+                .hub4 {
+                    left: auto;
+                    right: 0;
+                    top: 0;
+                }
+
+                .center-hub {
+                    z-index: 2;
+                    display: block;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    margin: auto;
+                    position: relative;
+                    /* top: 50%; */
+                    /* left: 50%; */
+                    width: 100%;
+                    background: #ded0b8;
+                    z-index: 5;
+                    transform: translate(-50%, 0);
+                }
+				
+				.course-image {
+					height:100%;
+					width: 100%;
+				
+				}
+				
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="main-container clearfix">
+        <div class="hub-wrapper clearfix">
+            <div class="hub1">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class='course-image' src="images/CR.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Current Concerns</h3>
+                            <div>
+                                <ul>
+                                    <li  style="padding : 2%"><a href="../course/view.php?id=18">My Hip Fracture</a></li>
+                                    <li  style="padding : 2"><a href="course/view.php?id=19">My Muscle and Skeleton Health</a></li>
+                                    <li  style="padding : 2%"><a href="course/view.php?id=20">My Falls</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hub2">
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img
+                                src="images/mhr.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>My Health Record</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="course/view.php?id=3">1</a></li>
+                                    <li><a href="course/view.php?id=30">2</a></li>
+                                    <li><a href="course/view.php?id=29">3</a></li>
+                                    <li><a href="course/view.php?id=28">4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="course/index.php?categoryid=13" class="hub-link">
+                    <img
+                        src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579602-yumminkysocialmedia36_83067.png">
+                </a>
+                <div class="tooltiptext tooltiptextright">
+                    <h3>Heading</h3>
+                    <div>
+                            <ul>
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 1</a></li>
+                            </ul>
+                        </div>
+                </div> -->
+            </div>
+            <div class="center-hub">
+                <a href="course/index.php?categoryid=13">
+                    <img src="images/hub.jpeg">
+                    <span class="tooltiptext">Tooltip text</span>
+                </a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="hub3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/coh.png">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Community Health</h3>
+                            <div>
+								<ul>	
+									<li><a href="course/view.php?id=3">Mind</a></li>
+                                    <li><a href="course/view.php?id=30">Sleep</a></li>
+                                    <li><a href="course/view.php?id=29">Exercise</a></li>
+                                    <li><a href="course/view.php?id=28">Nutrition</a></li>
+							    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hub4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/ew.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Essential Wellness</h3>
+                            <div>
+                                <ul>
+									<li><a href="course/view.php?id=27">Recommended Health Check</a></li>
+                                    <li><a href="course/view.php?id=26">Winter Wellness</a></li>
+                                    <li><a href="course/view.php?id=25">Mental Health Support</a></li>
+                                    <li><a href="course/view.php?id=24">Hygiene</a></li>
+									<li><a href="course/view.php?id=23">Health Care News</a></li>
+									<li><a href="course/view.php?id=22">Corona Virus</a></li>
+									<li><a href="course/view.php?id=21">Community Supports</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        var card = document.querySelector('.card');
+        card.addEventListener('mouseover', function () {
+            card.classList.toggle('is-flipped');
+        });
+        var backCard = document.querySelector('.back');
+        card.addEventListener('mouseover', function () {
+            card.classList.toggle('is-flipped');
+        });
+    </script>
+</body>
+</html>
